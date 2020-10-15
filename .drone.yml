@@ -36,7 +36,7 @@ steps:
       from_secret: docker_username
   when:
     branch:
-    - lh-10132020
+    - lh-10152020
     event:
     - push
 ---
@@ -79,7 +79,7 @@ steps:
       from_secret: docker_username
   when:
     branch:
-    - lh-10132020
+    - lh-10152020
     event:
     - push
 ---
@@ -107,7 +107,7 @@ steps:
     instance:
     - drone-publish.longhorn.io
     branch:
-    - lh-10132020
+    - lh-10152020
     event:
     - push
 
